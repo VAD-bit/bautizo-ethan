@@ -186,7 +186,7 @@ export default function Page() {
         <div className="lightbox video-modal" role="dialog" aria-modal="true" aria-label="Película del bautizo" onClick={() => setVideoOpen(false)}>
           <button className="close-lightbox" aria-label="Cerrar" onClick={() => setVideoOpen(false)}><X /></button>
           <div className="video-placeholder" onClick={(e) => e.stopPropagation()}>
-            <img src="/bautizo-ethan/fotos/foto-01.jpg" alt="" />
+            <img src="public/bautizo-ethan.mp4" alt="" />
             <div>
               <span className="play-big"><Play fill="currentColor" /></span>
               <p>LA PELÍCULA DE ETHAN</p>
