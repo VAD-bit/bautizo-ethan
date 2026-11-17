@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react'
 import { ArrowDown, ArrowLeft, ArrowRight, Download, Heart, Play, X, Video } from 'lucide-react'
 
 // 82 fotos convertidas (HEIC → JPG y JPG existentes) en public/bautizo-ethan/fotos/
-const fotoCount = 82
+const fotoCount = 114
 // 13 videos convertidos (MOV → MP4) en public/bautizo-ethan/videos/
 const videoCount = 13
 
@@ -186,7 +186,7 @@ export default function Page() {
         <div className="lightbox video-modal" role="dialog" aria-modal="true" aria-label="Película del bautizo" onClick={() => setVideoOpen(false)}>
           <button className="close-lightbox" aria-label="Cerrar" onClick={() => setVideoOpen(false)}><X /></button>
           <div className="video-placeholder" onClick={(e) => e.stopPropagation()}>
-            <img src="public/bautizo-ethan.mp4" alt="" />
+            <img src="public\bautizo-ethan.mp4" alt="" />
             <div>
               <span className="play-big"><Play fill="currentColor" /></span>
               <p>LA PELÍCULA DE ETHAN</p>
