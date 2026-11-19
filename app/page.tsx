@@ -3,8 +3,8 @@
 import { useEffect, useRef, useState } from 'react'
 import { ArrowDown, ArrowLeft, ArrowRight, Download, Heart, Play, X, Video } from 'lucide-react'
 
-// 82 fotos convertidas (HEIC → JPG y JPG existentes) en public/bautizo-ethan/fotos/
-const fotoCount = 114
+// 141 fotos convertidas (HEIC → JPG y JPG existentes) en public/bautizo-ethan/fotos/
+const fotoCount = 141
 // 13 videos convertidos (MOV → MP4) en public/bautizo-ethan/videos/
 const videoCount = 13
 
