@@ -186,12 +186,7 @@ export default function Page() {
         <div className="lightbox video-modal" role="dialog" aria-modal="true" aria-label="Película del bautizo" onClick={() => setVideoOpen(false)}>
           <button className="close-lightbox" aria-label="Cerrar" onClick={() => setVideoOpen(false)}><X /></button>
           <div className="video-placeholder" onClick={(e) => e.stopPropagation()}>
-            <img src="public\bautizo-ethan.mp4" alt="" />
-            <div>
-              <span className="play-big"><Play fill="currentColor" /></span>
-              <p>LA PELÍCULA DE ETHAN</p>
-              <small>El video del bautizo aparecerá aquí</small>
-            </div>
+            <video controls autoPlay src="/bautizo-ethan.mp4" style={{ maxHeight: 'calc(100svh - 150px)', maxWidth: '100%', borderRadius: '8px' }} />
           </div>
         </div>
       )}
